@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
+    
+}
+
+/* styles for the nav-bar section
+ (the logo-img,the logo-text, the nav-links) */
+
+.nav-bar {
+  background: #4A0000;
+  padding: 3px;
+  
+  
+}
+
+.logo {
+  margin: 5px;
+  padding: 6px;
+  
+  
+}
+
+.logo-img {
+  width: 78px;
+  height: 70px;
+  border-radius: 50px;
+  box-shadow: 6px 5px 6px 5px black;
+  border: 2px solid wheat;
+}
+
+.logo-img:hover,
+.logo-text:hover,
+.mission-img:hover,
+.vision-img:hover{
+  transform: translateX(20%);
+  transform: translateY(25%);
+  border: 4px solid red;
+  box-shadow: 10px 15px 10px 15px black;
+}
+
+
+.logo-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+  padding: 10px;
+  border:2px solid wheat;
+  border-radius: 10px;
+  text-align: center;
+  background: #4A0000;
+  box-shadow: 6px 6px 4px 4px black;
+  color: #fff;
+}
+
+.nav-links {
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color:#000;
+}
+
+button {
+  color: #fff;
+  margin: 8px;
+  padding: 6px;
+  background: #4A0000;
+  border: 2px solid wheat;
+  border-radius: 5px;
+  box-shadow: 6px 6px 5px 5px black;
+  
+}
+
+
+
+button:hover {
+  background: wheat;
+  border: 2px solid red;
+  box-shadow: 10px 15px 10px 15px black;
+  color: #000;
+}
+
+.drop-down {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 5px;
+  padding: 7px;
+  border:2px solid #4A0000;
+  border-radius: 6px;
+  text-align: center;
+  background: wheat;
+  box-shadow: 6px 6px 4px 4px black;
+  color: #fff;
+  filter: drop-shadow(2px 2px 2px 2px red);
+
+}
+
+.line-breaker {
+  color: red;
+  background: red;
+  filter: drop-shadow(2px 2px 2px 2px red);
+}
+
+/* the hero section */
+
+.hero {
+  margin: 3px;
+  padding: 6px;
+  text-align: center;
+  color: red;
+ 
+  background-image: url('images/singers1.png');
+  background-clip: cover;
+  text-shadow: black;
+  filter: drop-shadow(2px 2px 2px 2px red);
+  box-shadow:inset 10px 8px 10px 8px black;
+
+
+}
+
+.hero:hover {
+  box-shadow:10px 8px 10px 8px black;
+
+}
+
+.motto {
+  text-align: center;
+  background: wheat;
+  margin: 4px;
+  padding: 5px;
+  border: 3px solid #4A0000;
+  border-radius: 5px;
+  box-shadow: 6px 5px 6px 5px black;
+}
+
+.htc {
+  color: #000;
+  text-align: center;
+  background: wheat;
+  margin: 4px;
+  padding: 5px;
+  border: 3px solid #4A0000;
+  border-radius: 5px;
+  box-shadow: 6px 5px 6px 5px black;
+}
+
+.our-vision, .our-mission {
+  margin: 10px;
+  padding: 7px;
+  background: #709991;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 8px 10px 8px black;
+  box-shadow:10px 8px 10px 8px black;
+
+  overflow: hidden;
+  filter: drop-shadow(2px 2px 2px 2px red);
+
+
+  
+}
+
+.our-vision:hover,.our-mission:hover {
+  box-shadow:inset 10px 9.5px 10px 9.5px black;
+  color: #fff;
+  padding: 20px;
+
+}
+
+.mission-img,.vision-img {
+  border-radius: 50px;
+  box-shadow: 6px 5px 6px 5px black;
+  margin-bottom:16px;
+  filter: drop-shadow(2px 2px 2px 2px red);
+
+}
+
+.aboutus {
+  margin: 10px;
+  padding:30px;
+  text-align: center;
+  background:#4A0000 ;
+  box-shadow:inset 10px 8px 10px 8px #fff;
+
+}
+
+.aboutus-img {
+  border-radius: 20px;
+  box-shadow: 10px 8px 10px 8px black;
+}
+
+.supportus {
+  margin: 10px;
+  padding: 10px;
+}
+
+.scrow-img {
+  margin: 5px;
+  padding: 6.5px;
+}
+
+.contactus {
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+input, textarea {
+  margin: 5px;
+  padding: 5px;
+  background: wheat;
+  border: 2px solid #4A0000;
+  border-radius: 5px;
+  box-shadow: 9.5px 8.4px 9.5px 8.4px black;
+  color: #000;
+
+}
+
+input:focus, textarea:focus {
+  background: #4A0000;
+  border: 2px solid wheat;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+
+.footer {
+  padding: 5.5px;
+  background: #4A0000;
+  color: #fff;
+  text-align: center;
+  
+}
+
+
