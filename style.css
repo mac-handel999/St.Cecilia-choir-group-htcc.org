@@ -218,24 +218,7 @@ button:hover {
   
 }
 
-input, textarea {
-  margin: 5px;
-  padding: 5px;
-  background: wheat;
-  border: 2px solid #4A0000;
-  border-radius: 5px;
-  box-shadow: 9.5px 8.4px 9.5px 8.4px black;
-  color: #000;
 
-}
-
-input:focus, textarea:focus {
-  background: #4A0000;
-  border: 2px solid wheat;
-  color: #fff;
-  margin: 10px;
-  padding: 10px;
-}
 
 .footer {
   padding: 5.5px;
