@@ -5,7 +5,7 @@
 
 body {
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Georgia, Helvetica, sans-serif;
     background-color: wheat;
     
 }
@@ -16,6 +16,7 @@ body {
 .nav-bar {
   background: #4A0000;
   padding: 3px;
+  font-family: lobster, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   
   
 }
