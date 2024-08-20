@@ -219,6 +219,29 @@ button:hover {
   
 }
 
+.forms {
+  background: #42445A;
+  border: 2px solid #4A0000;
+  border-radius: 5px;
+}
+
+.register {
+  margin: 10px;
+  width: 320px;
+  height: 720px;
+}
+
+@media (min-width: 768px) {
+  .forms, .register {
+    width: 530px;
+    height: 780px;
+    text-align: center;
+  }
+  
+  
+  
+}
+
 
 
 .footer {

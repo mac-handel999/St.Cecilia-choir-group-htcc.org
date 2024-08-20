@@ -25,8 +25,8 @@
 
   selectElem.addEventListener('change', () => {
     function checkPassword() {
-      var password = prompt("Please enter the password:");
-      if (password === "Sing@Choir") {
+      var password = prompt(" Enter The Members Access Password:");
+      if (password === "I_Sing@This_Choir") {
         alert("Access granted!");
         
         // Call navigateToLink function to open the selected link
