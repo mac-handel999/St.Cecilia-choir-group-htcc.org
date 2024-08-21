@@ -25,9 +25,10 @@
 
   selectElem.addEventListener('change', () => {
     function checkPassword() {
-      var password = prompt(" Enter The Members Access Password:");
-      if (password === "I_Sing@This_Choir") {
-        alert("Access granted!");
+      var password = prompt(" Enter The Members Access Password🤔:");
+      if (password === "I_Sing@This_Choir" || password === "htcc_choir") {
+        
+        alert("Access granted!✅, Happy File Surfing!✌");
         
         // Call navigateToLink function to open the selected link
         
@@ -35,7 +36,7 @@
         
         
       } else {
-        alert("Access denied!");
+        alert("Wrong Password🤭, Access denied!😋");
         selectElem.value = ""; // Reset the selection
       }
     }
