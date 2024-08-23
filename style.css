@@ -216,6 +216,7 @@ button:hover {
 .contactus {
   margin: 10px;
   padding: 10px;
+ 
   
 }
 
@@ -239,6 +240,41 @@ button:hover {
   }
   
   
+.contactus {
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+grid-gap: 1px;
+  
+}
+
+  
+}
+
+#login-btn {
+  width: 150px;
+  height: 35px;
+  
+}
+
+#splash-logo {
+  width: 242px;
+  height: 200px;
+  margin:17px;
+  border: 2px solid wheat;
+  box-shadow: 10px 8px 10px 8px black;
+  border-radius: 20px;
+
+}
+
+.splash-bar {
+  margin: 5px;
+  padding: 5px;
+}
+
+#splash-body  {
+  background-color: #4A0000;
+  text-align: center;
   
 }
 
