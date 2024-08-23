@@ -22,7 +22,7 @@ body {
 }
 
 .logo {
-  margin: 5px;
+  margin: 10px;
   padding: 6px;
   
   
@@ -47,9 +47,9 @@ body {
 }
 
 
-.logo-text {
+.logo-text , .splash-text {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
   border:2px solid wheat;
   border-radius: 10px;
@@ -59,11 +59,51 @@ body {
   color: #fff;
 }
 
+.logo-img {
+  position: fixed;
+  
+  margin: 08px;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  z-index: 1000;
+}
+
+.logo-text {
+  position: absolute;
+  margin: 10px;
+  font-weight: 100px;
+  position:fixed;
+  
+  left: 120px;
+  top: 10px;
+  z-index:1000;
+}
+
 .nav-links {
   margin: 10px;
   padding: 10px;
   color: #fff;
+/*background-color: #4A0000;*/
+  display: none;
   
+}
+
+
+.splash-btn {
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  background-color: #4A0000;
+  display:inline-block;
+  
+}
+
+
+.menu {
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
 }
 
 a {
@@ -277,6 +317,41 @@ grid-gap: 1px;
   text-align: center;
   
 }
+  .toggle-btn {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 55px;
+    width: 60px;
+    height: 55px;
+    background: #4A0000;
+    border: solid wheat 2px;
+    position: fixed;
+    left: 250px;
+    right: 0px;
+    bottom: 20px;
+    z-index: 1000;
+  
+  }
+  
+  .toggle-btn-img {
+    width: 45px;
+    height: 43px;
+    border-radius: 50px;
+  }
+
+
+
+.backtoTop {
+  position: fixed;
+  margin: 08px;
+  left: 0px;
+  right: 380px;
+  bottom: 20px;
+  z-index: 1000;
+  border-radius: 60px;
+  width: 60px;
+  height: 50px;
+}
 
 
 
@@ -287,5 +362,6 @@ grid-gap: 1px;
   text-align: center;
   
 }
+
 
 
