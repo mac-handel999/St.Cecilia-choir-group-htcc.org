@@ -26,7 +26,7 @@
   selectElem.addEventListener('change', () => {
     function checkPassword() {
       var password = prompt(" Enter The Members Access Password🤔:");
-      if (password === "I_Sing@This_Choir" || password === "htcc_choir") {
+      if (password === "I_Sing@This_Choir" || password === "htcc_choir" || password === "Singing@Choir") {
         
         alert("Access granted!✅, Happy File Surfing!✌");
         
