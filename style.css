@@ -371,6 +371,22 @@ img {
   height: 50px;
 }
 
+#password {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid wheat;
+  border-radius: 20px;
+  background: #4A0000;
+  color: #fff;
+  box-shadow: 10px 8px 10px 8px black;
+
+}
+
+#password:focus {
+  background: wheat;
+  color: #000;
+  border: 3px solid #4A0000;
+}
 
 
 .footer {
