@@ -89,6 +89,15 @@ body {
   
 }
 
+body {
+  transition: background-color 0.5s ease;
+}
+
+ .nav-bar, .footer {
+  transition: background-color 0.5s ease;
+  transition: display 0.5s ease;
+}
+
 
 .splash-btn {
   margin: 10px;
@@ -253,7 +262,8 @@ button:hover {
 .scrow-img {
   margin: 5px;
   padding: 6.5px;
-  width: 176px;
+  
+ 
 }
 
 .contactus {
