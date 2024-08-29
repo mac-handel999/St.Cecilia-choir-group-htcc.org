@@ -7,7 +7,7 @@ body {
     font-size: 15px;
     font-family:Georgia, Helvetica, sans-serif;
     background-color: wheat;
-    
+    cursor: pointer;
 }
 
 /* styles for the nav-bar section
