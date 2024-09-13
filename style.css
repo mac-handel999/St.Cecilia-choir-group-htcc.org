@@ -397,5 +397,9 @@ img {
   
 }
 
+input::placeholder {
+  color: #fff;
+}
+
 
 
