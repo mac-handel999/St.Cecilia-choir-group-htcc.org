@@ -146,8 +146,8 @@ button:hover {
 
 .drop-down {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 5px;
-  padding: 7px;
+  margin: 10px;
+  padding: 10px;
   border:2px solid #4A0000;
   border-radius: 6px;
   text-align: center;
@@ -399,6 +399,11 @@ img {
 
 input::placeholder {
   color: #fff;
+}
+
+.btns {
+  margin: 10px;
+  padding: 10px;
 }
 
 

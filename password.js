@@ -47,7 +47,7 @@ loginBtn.addEventListener('click', () => {
 
         // Delay before redirection to ensure alert is shown
         setTimeout(() => {
-            window.open("home.html", "_self");
+            window.open("Script Library.html", "_self");
         }, 500); // 500 ms = 0.5 seconds
 
         alert("Sing Praises🗣️....To The Lord👼");
